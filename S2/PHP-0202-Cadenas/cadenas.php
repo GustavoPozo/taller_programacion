@@ -6,11 +6,11 @@ $titulo = "Agente al servicio de su 'magestad'";
 //print $agente;
 //print $titulo;
 
-$str = <<<'EOD'
-Mi nombre es: $nombre
-mi número de agente es: $agente
+$str = <<<EOD
+Mi nombre es: $nombre <br>
+mi número de agente es: $agente <br>
 mi lema es: $titulo
-	EOD;
+EOD;
 
 print $str;
 
